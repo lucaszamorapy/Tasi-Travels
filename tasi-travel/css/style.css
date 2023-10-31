@@ -1,0 +1,57 @@
+body {
+  padding-top: 140px;
+}
+
+.box-shadow {
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.10),
+              0 4px 8px 0 rgba(0,0,0,.10);
+}
+
+
+#home-quote {
+  background: url('../img/bg-quote.jpg') center center;
+  height: 100%;
+  background-size: cover;
+}
+
+@media (max-width: 767px) {
+  #home-quote .display-4 {
+    font-size: 2.5rem;
+  }
+  body {
+    padding: 0;
+  }
+  .fixed-top {
+    position: relative;
+  }
+}
+
+.color {
+  background-color: #4F5BCB;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+
+}
+
+.color:hover{
+  background-color: white;
+  color: #4F5BCB;
+}
+
+.colorText {
+  color: #4F5BCB;
+}
+
+.colorBg {
+  background-color: #4F5BCB;
+}
+
+.lista-plano li + li {
+  border-top: 1px solid rgba(0,0,0,.2);
+}
+
+.lista-plano li {
+  padding: 1rem
+}
+
